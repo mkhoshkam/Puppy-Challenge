@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:puppy_challenge/utils/pages.dart';
+import 'package:puppy_challenge/utils/routes.dart';
 
 void main() {
   runApp(app());
@@ -7,9 +9,8 @@ void main() {
 
 GetMaterialApp app() {
   return GetMaterialApp(
-      initialRoute: "/",
+      initialRoute: Routes.home,
       debugShowCheckedModeBanner: false,
-      locale: const Locale('en_US'),
-      fallbackLocale: const Locale('en_US'),
-      getPages: []);
+      locale:const Locale('en_US'),
+      getPages: Pages.pages);
 }
