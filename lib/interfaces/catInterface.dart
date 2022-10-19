@@ -1,0 +1,3 @@
+class CatInterface{
+  void resetCatFilters(){}
+}

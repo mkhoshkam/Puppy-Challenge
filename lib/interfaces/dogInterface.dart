@@ -1,0 +1,3 @@
+class DogInterface{
+  void resetDogFilters(){}
+}
