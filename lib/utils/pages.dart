@@ -7,7 +7,7 @@ import 'package:puppy_challenge/views/serviceView.dart';
 
 class Pages{
   static final pages = <GetPage>[
-    GetPage(name: Routes.home, page:()=> HomeView(),binding: HomeBinding()),
+    GetPage(name: Routes.home, page:()=> const HomeView(),binding: HomeBinding()),
     GetPage(name: Routes.service, page:()=> const ServiceView(),binding: ServiceBinding())
   ];
 }
